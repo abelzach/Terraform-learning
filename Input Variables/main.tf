@@ -9,3 +9,12 @@ resource "aws_instance" "Test" {
     Name = "Abel_Test"
   }
 }
+# resource "aws_lightsail_instance" "test" {
+#   name              = "Abel_Test"
+#   availability_zone = "us-east-1b"
+#   blueprint_id      = var.blueprint_id
+#   bundle_id         = "nano_1_0"
+#   tags = {
+#     foo = "bar"
+#   }
+# }
